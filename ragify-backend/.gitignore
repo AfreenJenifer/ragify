@@ -1,0 +1,8 @@
+venv/
+.env
+firebase-key.json
+faiss.index
+metadata.npy
+__pycache__/
+*.pyc
+uploads/
