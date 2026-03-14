@@ -7,7 +7,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDrsk7NCCGfaRZZqZ1elQDEGsgFbLHIIqc",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "ragify-project.firebaseapp.com",
   projectId: "ragify-project",
   storageBucket: "ragify-project.firebasestorage.app",
